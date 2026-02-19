@@ -2,32 +2,148 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dhruw Shekhar | Data Portfolio</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
-        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        .project-card { border: 1px solid #ddd; padding: 15px; border-radius: 8px; margin-top: 20px; transition: 0.3s; }
-        .project-card:hover { box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        .tag { background: #3498db; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruw Shekhar | Data Science Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Namaste, I'm Dhruw Shekhar</h1>
-    <p>Data Enthusiast | Focusing on Indian Public Health & Urban Datasets</p>
+    <aside class="sidebar">
+        <div>
+            <div class="name-title">
+                <h1>Dhruw<br>Shekhar</h1>
+                <div class="status-badge">•IT ANALYST • IIT Bhilai • Data Science Scholar</div>
+            </div>
+            <div class="about-text">
+                <p>Azure-certified IT Analyst. I bridge the gap between complex IT infrastructure and data-driven insights. Currently mastering Data Science at IIT Bhilai.</p>
+            </div>
+            
+        </div>
+        <div class="contact-links">
+            <a href="mailto:dhruwizmyname@outlook.com">dhruwizmyname@outlook.com ↗</a>
+            <a href="https://www.linkedin.com/in/dhruwizmyname/">LinkedIn ↗</a>
+            <a href="https://github.com/dhruwizmyname">GitHub ↗</a>
+        </div>
+    </aside>
 
-    <h2>Featured Projects</h2>
+    <main class="main-content">
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="item">
+                <div class="item-header">
+                    <h3>IT Analyst</h3>
+                    <span class="date">Feb 2022 – Present</span>
+                </div>
+                <span class="sub-title">Amicus Technology Pvt Ltd | Raipur, Chhattisgarh</span>
+                <div class="description">
+                    <ul>
+                        <li>Resolved <strong>95% of complex technical issues</strong> within SLA timeframes, including data ETL pipeline failures and SQL query optimization, improving system performance by 25%.</li>
+                        <li>Reduced average resolution time from <strong>4 hours to 2.5 hours</strong> while processing 50+ daily requests with 98% SLA compliance.</li>
+                        <li>Leveraged <strong>Azure Data Engineer</strong> expertise to troubleshoot cloud infrastructure across Databricks, Synapse Analytics, and Data Factory, maintaining 99.5% system availability.</li>
+                        <li>Implemented <strong>automated monitoring solutions</strong> that reduced manual troubleshooting efforts by 40% and proactively identified system failures.</li>
+                        <li>Analyzed complex datasets to identify root causes of technical issues, resulting in <strong>35% faster problem resolution</strong>.</li>
+                    </ul>
+                    <div class="tag">Azure Databricks</div> 
+                    <div class="tag">Synapse Analytics</div> 
+                    <div class="tag">SQL Optimization</div> 
+                    <div class="tag">ETL Pipelines</div>
+                    <div class="tag">ServiceNow/JIRA</div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <div class="item">
+                <div class="item-header">
+                    <h3>Project TEST1</h3>
+                    <span class="date">2024</span>
+                </div>
+                <span class="sub-title">Data Pipeline & Analytics</span>
+                <div class="description">
+                    <p>Description of your first major project. Focus on how you used your Azure or SQL skills here.</p>
+                    <div class="tag">Azure Data Factory</div> <div class="tag">SQL</div> <div class="tag">Power BI</div>
+                </div>
+            </div>
 
-    <div class="project-card">
-        <h3>🇮🇳 Indian Public Health Impact Analysis</h3>
-        <p>Analyzing the correlation between sanitation infrastructure and water-borne disease reduction using NFHS-5 data.</p>
-        <span class="tag">Python</span> <span class="tag">Data Analysis</span>
-    </div>
+            <div class="item">
+                <div class="item-header">
+                    <h3>Project TEST2</h3>
+                    <span class="date">2023</span>
+                </div>
+                <span class="sub-title">Machine Learning / Python Analysis</span>
+                <div class="description">
+                    <p>Description of your second project. Mention the dataset you used and the outcome of your analysis.</p>
+                    <div class="tag">Python</div> <div class="tag">Pandas</div> <div class="tag">Scikit-Learn</div>
+                </div>
+            </div>
 
-    <div class="project-card">
-        <h3>📂 Other Repositories</h3>
-        <p>Check out my code on <a href="https://github.com/dhruwizmyname">GitHub</a></p>
-    </div>
+            <div class="item">
+                <div class="item-header">
+                    <h3>Project TEST3</h3>
+                    <span class="date">2023</span>
+                </div>
+                <span class="sub-title">Database Optimization</span>
+                <div class="description">
+                    <p>Description of your third project. Highlight any optimization or "cleaning" work you did.</p>
+                    <div class="tag">MySQL</div> <div class="tag">ETL</div> <div class="tag">Optimization</div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            
+            <div class="item">
+                <div class="item-header">
+                    <h3>Executive M-Tech, Data Science & Data Analytics</h3>
+                    <span class="date">April 2025 – Ongoing</span>
+                </div>
+                <span class="sub-title">Indian Institute of Technology (IIT), Bhilai</span>
+                <div class="description">
+                    <p>Focusing on advanced data manipulation, cloud analytics, and large-scale data pipeline architecture.</p>
+                </div>
+            </div>
 
-</body>
-</html>
+            <div class="item">
+                <div class="item-header">
+                    <h3>B-Tech, Computer Science & Engineering</h3>
+                    <span class="date">2017 – 2021</span>
+                </div>
+                <span class="sub-title">Bhilai Institute of Technology (BIT)</span>
+                <div class="description">
+                    <p>Foundation in core Computer Science principles, including Algorithms, Database Management Systems (DBMS), and Software Engineering.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="item">
+                <div class="description">
+                    <p><strong>Microsoft Certified:</strong> Azure Data Engineer Associate (DP-203)</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const btn = document.getElementById("theme-toggle");
+        const body = document.body;
+        
+        // Check for saved user preference
+        const currentTheme = localStorage.getItem("theme");
+        if (currentTheme === "dark") {
+            body.setAttribute("data-theme", "dark");
+        }
+
+        btn.addEventListener("click", () => {
+            if (body.getAttribute("data-theme") === "dark") {
+                body.removeAttribute("data-theme");
+                localStorage.setItem("theme", "light");
+            } else {
+                body.setAttribute("data-theme", "dark");
+                localStorage.setItem("theme", "dark");
+            }
+        });
