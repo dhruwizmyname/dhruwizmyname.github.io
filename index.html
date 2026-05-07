@@ -120,4 +120,46 @@
             <div class="item">
                 <div class="item-header">
                     <h3>B-Tech, Computer Science & Engineering</h3>
-                    <span class="date">2017 – 20
+                    <span class="date">2017 – 2021</span>
+                </div>
+                <span class="sub-title">Bhilai Institute of Technology (BIT)</span>
+                <div class="description">
+                    <p>Foundation in core Computer Science principles, including Algorithms, Database Management Systems (DBMS), and Software Engineering.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="item">
+                <div class="description">
+                    <p><strong>Microsoft Certified:</strong> Fabric Data Engineering Associate (DP-700) <em>[Prepared]</em></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const btn = document.getElementById("theme-toggle");
+        const body = document.body;
+        
+        // Check for saved user preference
+        const currentTheme = localStorage.getItem("theme");
+        if (currentTheme === "dark") {
+            body.setAttribute("data-theme", "dark");
+        }
+
+        if(btn) {
+            btn.addEventListener("click", () => {
+                if (body.getAttribute("data-theme") === "dark") {
+                    body.removeAttribute("data-theme");
+                    localStorage.setItem("theme", "light");
+                } else {
+                    body.setAttribute("data-theme", "dark");
+                    localStorage.setItem("theme", "dark");
+                }
+            });
+        }
+    </script>
+</body>
+</html>
